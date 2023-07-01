@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "102037705574",
+    "project_id": "talent-tourney",
+    "storage_bucket": "talent-tourney.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102037705574:android:b65cf5db7b87c8d3922ea7",
+        "android_client_info": {
+          "package_name": "com.example.talent_tourney"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "102037705574-sjn9cp8mkob1fauudrghfcpn4fcap2am.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-I3wkVHf7gU8VOLMNukrB1I2c5OYpp6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "102037705574-sjn9cp8mkob1fauudrghfcpn4fcap2am.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
