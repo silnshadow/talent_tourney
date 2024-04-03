@@ -1,27 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:talent_tourney/firebase_options.dart';
+import 'app/app.dart';
+import 'data/data_sources/remote/firebase/firebase_options.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-
-  runApp(const MainApp());
-}
-
-class MainApp extends StatelessWidget {
-  const MainApp({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
-      ),
-    );
-  }
+  //await initializeDatabase(); call only for only setting up basic firestore database no need to uncooment this all dummy data is there in DB
+  runApp(const App());
 }
