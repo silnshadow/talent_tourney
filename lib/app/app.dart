@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-
-import '../presentation/modules/home/home_screen.dart';
+import '../presentation/modules/auth/login/login_screen.dart';
 import 'dependencies.dart';
 
 class App extends StatelessWidget {
@@ -11,9 +10,9 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MultiProvider(
       providers: Dependencies.getProviders(),
-      child: MaterialApp(
+      child: const MaterialApp(
         title: 'Talent Tourney',
-        home: const HomeScreen(),
+        home: LoginScreen(),
       ),
     );
   }

@@ -14,7 +14,23 @@
       },
       "oauth_client": [
         {
-          "client_id": "102037705574-sjn9cp8mkob1fauudrghfcpn4fcap2am.apps.googleusercontent.com",
+          "client_id": "102037705574-kn7qem09rvo11d2me017f4vi7kr9btef.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.talent_tourney",
+            "certificate_hash": "dad07c0cf8febddb4d1e7ff3101be13683406e0e"
+          }
+        },
+        {
+          "client_id": "102037705574-ktv95525kvoft7duhvukh79lg7sihc66.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.talent_tourney",
+            "certificate_hash": "38e0e381f31b5c4268712de6d909ffda88ab66a5"
+          }
+        },
+        {
+          "client_id": "102037705574-s8i5t7obimo2nl5i7a83q9k4nghehpih.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
@@ -27,8 +43,15 @@
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "102037705574-sjn9cp8mkob1fauudrghfcpn4fcap2am.apps.googleusercontent.com",
+              "client_id": "102037705574-s8i5t7obimo2nl5i7a83q9k4nghehpih.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "102037705574-0jvke77uh400g9or9v2i0u120cp8md6n.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.talentTourney.RunnerTests"
+              }
             }
           ]
         }
